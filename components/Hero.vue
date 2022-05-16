@@ -72,7 +72,9 @@
 }
 
 .ButtonCollection a:hover {
-  color: #373737;
+  color: #459CFF;
+  transform: scale(1.1);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
 .ScrollDiv {
@@ -94,10 +96,14 @@
   padding: 0.3rem;
   border-radius: 15px 15px 15px 15px;
   width: 10rem;
+  transition: 0.3s;
 }
 
 .ScrollButton:hover {
-  border: 2px solid #202020;
+  border: 2px solid #459CFF;
+  color: #459CFF;
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 .is-typed span.cursor {
     display: inline-block;

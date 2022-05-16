@@ -13,13 +13,16 @@
         ></a>
       </div>
       <p class="copyright">
-        Made with <i class="fa-solid fa-heart"></i> &copy; {{ new Date().getFullYear() }}
+        Teun Engels &copy; {{ new Date().getFullYear() }}
       </p>
     </footer>
   </div>
 </template>
 
 <style scoped>
+.fa-solid {
+  background-color: #202020;
+}
   .footer-basic {
     height: 11rem;
   }
@@ -47,7 +50,7 @@
   }
 
   .social:hover {
-    color: #373737;
+    color: #459CFF;
   }
 
   .copyright {

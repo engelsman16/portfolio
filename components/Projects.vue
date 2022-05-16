@@ -1,10 +1,9 @@
 <template>
-<section class="ProjectSection" id="projects">
+<section class="ProjectSection" id = "projects">
         <div class="ProjectText">
             <h1 class="ProjectTitle">Projects</h1>
         </div>
-</section>
-<div class="container">
+        <div class="container">
     <div class="row">
       <div class="card">
         <div class="card-header">
@@ -52,17 +51,14 @@
       </div>
     </div>
   </div>
+</section>
+
 </template>
 
 <style scoped>
 
 .ProjectSection {
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    z-index: 90;
-    padding-top: 3rem;
+  text-align: center;
 }
 
 .ProjectText {
@@ -74,7 +70,7 @@
 }
 
 .fa-solid {
-  color: #dadada ;
+  color: #459CFF ;
   font-size: 3rem;
 }
 .container {
@@ -114,7 +110,6 @@
 .card-body p{
   background-color: #373737;
   color: #dadada;
-  font-weight: bold;
 }
 
 .card-body .btn {
@@ -125,11 +120,11 @@
   margin-top: 30px;
   text-decoration: none;
   padding: 10px 5px;
-  font-weight: bold;
+  border-radius: 20px;
+  border: 2px solid #202020;
 }
 .card-body .btn:hover {
-  color: #373737;
-  font-weight: bold;
+  border: 2px solid #459CFF;
 }
 
 .card:hover {

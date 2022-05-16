@@ -1,42 +1,58 @@
-# Nuxt 3 Minimal Starter
+<h1 align = center>ES CHALLENGES</h1>
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+---
 
-## Setup
+### Learning Goals-Checklist
+- [ ] <strong>Algemeen</strong>
+	- [ ] Basale gegevens uit een datasheet lokaliseren en gebruiken.
+	- [ ] Vanuit een probleemdefinitie een meetplan opstellen en uitvoeren.
+	- [ ] Resultaten van een opdracht verwerken in een meetrapport met tenminste de volgende eigenschappen:
+		- [ ] doel van de meting
+		- [ ] meetopstelling en apparatuur
+		- [ ] gebruikte schema's
+		- [ ] meetresultaten (tabellen en grafieken)
+	-  [ ] De verkregen meetgegevens kritisch te beschouwen en op basis hiervan
+		-  [ ] conclusies te trekken.
+		-  [ ] aanbevelingen te geven.
+	-  [ ] Gebruiken van de volgende apparatuur en de gemeten resultaten kunnen interpreteren:
+		-  [ ] een multimeter
+		-  [ ] lab-voeding
+- [ ] <strong>Analoge-sensoren</strong>
+	- [ ] De volgende sensor eigenschappen te benoemen, te herkennen en te meten:
+		- [ ] hysterese
+		- [ ] span
+		- [ ] nauwkeurigheid
+		- [ ] gevoeligheid
+		- [ ] offset
+		- [ ] drift
+		- [ ] overdracht karakteristiek
+	- [ ] De volgende algoritmes te implementeren op een embedded systeem:
+		- [ ] lineaire interpolatie
+		- [ ] moving average filter
+- [ ] <strong>Elektrische-basisbegrippen</strong>
+	- [ ] Begrippen als stroom, spanning en weerstand kunnen toepassen en berekenen.
+	- [ ] De wetten van Ohm en Kirchhoff kunnen toepassen.
+	- [ ] De vervangingsweerstand (serieel en parallel) kunnen berekenen.
+- [ ] <strong>Network-sockets</strong>
+	- [ ] Met behulp van Socket API sockets programeren in C
+	- [ ] sockets programeren in C#
+- [ ] <strong>Protocollen-en-state-gedrag</strong>
+	- [ ] Het opstellen en ontwikkelen van een protocol tussen micro-controllers op basis van seriële communicatie met de volgende eigenschappen:
+		- [ ] state machines
+		- [ ] non-blocking
+		- [ ] eenvoudig uit te breiden
+		- [ ] controle op aankomst van berichten (ACK/NACK)
+	- [ ] Begrippen als state-gedrag kunnen herkennen, typeren en gebruiken.
+	- [ ] Het communicatie protocol te documenteren.
+- [ ] <strong>Register-IO</strong>
+	- [ ] Op basis van ADC of GPIO sensoren via processor registers te configureren en uit te lezen.
+- [ ] <strong>Two-wire-interface</strong>
+	- [ ] Met externe devices te communiceren via I2C en seriele communicatie.
+	- [ ] Integrator
+- [ ] <strong>Versterkers</strong>
+	- [ ] Het in eigen bewoording kunnen uitleggen en maken van een versterker met de volgende onderdelen:
+		- [ ] stroombron
+		- [ ] relais
+		- [ ] transistor en FET
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+---
